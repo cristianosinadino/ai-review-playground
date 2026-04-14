@@ -15,16 +15,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-[#0a0a0a] text-gray-100">
+      <body className="bg-gradient-to-br from-gray-50 to-gray-100 text-gray-900">
         <KeyboardShortcuts />
         <div className="min-h-screen">
-          <header className="sticky top-0 z-50 border-b border-[#00ff88]/10 bg-black/80 backdrop-blur-md">
+          <header className="sticky top-0 z-50 border-b border-gray-100 bg-white/90 backdrop-blur-md">
             <div className="mx-auto max-w-7xl px-4 sm:px-6">
               <div className="flex items-center justify-between py-2.5">
                 <h1 className="whitespace-nowrap text-base sm:text-xl font-bold">
                   📚
-                  <span className="inline sm:hidden text-[#00ff88]">KE</span>
-                  <span className="hidden sm:inline ml-2 text-white">Knowledge <span className="text-[#00ff88]">Engine</span></span>
+                  <span className="inline sm:hidden">KE</span>
+                  <span className="hidden sm:inline ml-2">Knowledge Engine</span>
                 </h1>
                 <Navigation />
               </div>

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  @apply border-[#00ff88]/10;
+  @apply border-gray-200;
 }
 
 html {
@@ -15,17 +15,17 @@ body {
 }
 
 input, textarea, select {
-  @apply rounded border border-[#00ff88]/20 bg-black/40 text-white px-3 py-2 text-sm placeholder-gray-600;
+  @apply rounded border border-gray-300 px-3 py-2 text-sm;
 }
 
 input:focus, textarea:focus, select:focus {
-  @apply outline-none ring-2 ring-[#00ff88]/50 border-[#00ff88]/50;
+  @apply outline-none ring-2 ring-blue-500;
 }
 
 button {
-  @apply rounded bg-[#00ff88] text-black px-4 py-2 font-medium hover:bg-[#00ff88]/90 transition;
+  @apply rounded bg-blue-600 px-4 py-2 font-medium text-white hover:bg-blue-700 transition;
 }
 
 button:disabled {
-  @apply bg-gray-600 hover:bg-gray-600 cursor-not-allowed text-gray-400;
+  @apply bg-gray-400 hover:bg-gray-400 cursor-not-allowed;
 }
