@@ -1,7 +1,10 @@
 {
   "name": "ai-review-playground",
   "private": true,
-  "workspaces": ["apps/*", "packages/*"],
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "dev": "turbo dev",
     "build": "turbo build",
@@ -10,5 +13,8 @@
   "devDependencies": {
     "turbo": "^1.12.4",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "next": "^16.2.3"
   }
 }
